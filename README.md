@@ -2,8 +2,6 @@
 Jerseyfi es un e-commerce ficticio de venta de camisetas de futbol. 
 
 
-![gif-final](https://user-images.githubusercontent.com/104269045/196240452-b350f55b-6a20-4c84-be76-55b3fb0c8845.gif)
-
 
 ## Enfoque del proyecto 
 

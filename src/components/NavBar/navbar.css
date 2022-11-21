@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    width: 100%;
+    background-image: url(../../assets/bgCards/qatar.jpg);
+    background-size: 20%;
+}
+ul{
+    margin: auto;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    margin: 10px;
+    font-weight: bold;
+    color: #eee;
+    font-family: 'Poppins';
+    font-size: 2.5vh;
+}
+a:hover{
+    transform: scale(105%);
+    color: #eee;
+    transition: .2s;
+}
+.logo-bg{
+    position: absolute;
+    width: 3.2em;
+    height: 3.2em;
+    margin: auto;
+    left: 10%;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 2;
+}
+.logo{
+    background-image: url(../../assets/logo.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 400%;
+    width: 400%;
+    top: 7%;
+    left: 10%;
+    z-index: 3;
+}

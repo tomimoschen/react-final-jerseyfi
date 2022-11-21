@@ -1,0 +1,41 @@
+/* --- ITEM COLLECTION --- */ 
+.boton {
+    display: block;
+    font-size: 1em;
+    width: 20%;
+    height: 3.2em;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#252628;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 70vw;
+    margin-top: 40vh;
+}
+.collection-card {
+    width: 90%;
+    height: 80vh;
+    border-radius: 5px;
+    margin: 5em auto;
+}
+.selecciones {
+    background-image: url(../../assets/bgCards/bg.webp);
+    background-size: 260vh;
+    width: 100%;
+    height: 100%;
+    background-position: -45em;
+    border-radius: 5px;
+}
+.equipos {
+    background-image: url(../../assets/bgCards/realmadrid.jpg);
+    background-size: 190vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.collection-title{
+    font-size: 2.5em;
+    font-weight: bold;
+}

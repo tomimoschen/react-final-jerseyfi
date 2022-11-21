@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+h1{
+    padding-top:10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #EEE3CB;
+}
+
+
+

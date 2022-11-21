@@ -1,0 +1,30 @@
+.card-item{
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.card-item:hover{
+    border: 2.5px solid #222;
+    transition: .15s;
+}
+.card-img-item{
+    width: 100%;
+    margin-bottom: 5px;
+    aspect-ratio: 1 / 1;
+}
+.boton-item {
+    display: block;
+    font-size: 80%;
+    width: 30%;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color:#222;
+    font-weight: normal;
+    margin: auto;
+    cursor: pointer;
+}

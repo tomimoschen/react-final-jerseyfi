@@ -1,0 +1,84 @@
+.cart{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.cart:hover{
+    transform: scale(110%);
+    transition: .2s;
+}
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+/* --- CART ITEM --- */
+.boton-cart{
+    display: block;
+    font-size: 1em;
+    width: 10em;
+    height: fit-content;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    background-color: #222;
+    cursor: pointer;
+}
+.boton-cart:hover{
+    transform: scale(105%);
+    font-weight: bold;
+    transition: .2s;
+}
+.productInCart{ 
+    background-color: #ececec;
+    height: 170px; 
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.imgProductInCart{
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+    margin-left: -15%;
+}
+.detailsProductInCart{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top:-10%;
+}
+.titleProductInCart{
+    text-decoration:underline;
+}
+/* --- CART EMPTY --- */
+.cartEmptyContainer{
+    color: #eee;
+    width: 20%;
+    height: 20vh;
+    margin: auto;
+    margin-bottom: 30vh;
+    background-image: url(../../assets/bgCards/qatar.jpg);
+    background-size: cover;
+}
+.cartEmpty{
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.totalPrice{
+    margin-top: 3%;
+    margin-left: 85%;
+    margin-bottom:15%;
+}
+.moreProducts{
+    display:flex;
+    flex-direction: row-reverse;
+}
